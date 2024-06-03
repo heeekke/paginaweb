@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D8BFD8;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+}
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:cornsilk;
+    text-decoration: none;
+}
+
+#banner {
+    background-color:#DDA0DD    ;
+    padding: 20px;
+    text-align: left;
+    color:  black;
+}
+
+#destacados {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.producto {
+    text-align: center;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.slideer {
+    width: 1255px;
+    overflow: hidden;
+}
+
+.slideer ul {
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
+}
+
+.slideer li {
+    width: 100%;
+    list-style: none;
+}
+
+.slideer img {
+    width: 1255px;
+    height: 400px;
+}
+
+@keyframes cambio {
+
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+
+
+}
